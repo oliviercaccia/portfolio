@@ -1,0 +1,215 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+/* GENERAL */
+#rmp h1,
+#rmp-landing h1,
+#creepy-cute h1,
+#gpi h1,
+#lpfs h1,
+#open-museum h1,
+#natchez-wp {
+    font-family: 'Roboto Slab';
+}
+
+#rmp h2,
+#rmp-landing h2,
+#creepy-cute h2,
+#lpfs h2,
+#open-museum h2,
+#natchez-wp h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+h3:after,
+#rmp h2:after,
+#rmp-landing h2:after,
+#creepy-cute h2:after,
+#lpfs h2:after,
+#open-museum h2:after,
+#natchez-wp h2:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #AF9483;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #689D71;
+}
+
+.post-box p:hover {
+    color: #6c757d;
+}
+
+.services-inner-box {
+    min-height: 384px;
+}
+
+/* COLOR */
+.tech-logo {
+    font-size: 1.5rem;
+    color: #AF9483;
+    width: 28.8px;
+}
+
+.footer-logo {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.green-color,
+.footer-logo:hover {
+    color: #AF9483;
+}
+
+.main-color {
+    color: #AF9483;
+}
+
+::selection,
+.green-bg {
+    background-color: #AF9483;
+}
+
+.experience-bg {
+    background-color: #f2f3f5;
+}
+
+/* FONT-SIZE*/
+.cd-headline {
+    font-size: 30px;
+    font-family: 'Roboto Mono';
+}
+
+.code-icon {
+    font-size: 2.8rem;
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+/* PADDING-MARGIN */
+.top-padding {
+    padding-top: 62px;
+}
+
+.post-box ul {
+    padding: 0;
+}
+
+.heading p {
+    padding: 15px 0;
+}
+
+/* HOVER */
+.post-box {
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.post-box:hover {
+    box-shadow: 0 14px 28px rgba(177, 193, 162, 0.25), 0 10px 10px rgba(177, 193, 162, 0.22);
+}
+
+/* IMAGES */
+.img-overlay img {
+    filter: grayscale(4);
+    -webkit-filter: grayscale(14);
+}
+
+.photo-gris img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/* TECH BADGES */
+.badge-pill {
+    font-weight: 400;
+}
+
+.html-pill {
+    color: #ffffff;
+    background-color: #b1c1a2;
+}
+
+.css-pill {
+    color: #ffffff;
+    background-color: #b6a6ca;
+}
+
+.php-pill {
+    color: #ffffff;
+    background-color: #284b63;
+}
+
+.wp-pill {
+    color: #ffffff;
+    background-color: #3c6e71;
+}
+
+.figma-pill {
+    color: #ffffff;
+    background-color: #444444;
+}
+
+.angular-pill {
+    color: #ffffff;
+    background-color: #f18f01;
+}
+
+.mongo-pill {
+    color: #ffffff;
+    background-color: #5c415d;
+}
+
+.node-pill {
+    color: #ffffff;
+    background-color: #8c271e;
+}
+
+/* RESPONSIVE */
+@media (max-width: 544px) {
+
+    #rmp h1,
+    #rmp-landing h1 {
+        font-size: 2rem;
+    }
+
+    #rmp p,
+    #rmp a {
+        text-align: left;
+    }
+
+    h3:after,
+    #rmp h2:after {
+        width: 15%;
+        margin-top: 5%;
+    }
+
+    .services-inner-box {
+        min-height: 0;
+    }
+
+    .img-size {
+        width: 300px;
+    }
+
+    .ml3 {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .code-icon {
+        font-size: 1.6rem;
+    }
+}
